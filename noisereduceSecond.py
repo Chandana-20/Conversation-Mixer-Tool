@@ -1,3 +1,16 @@
+Noise Reduction using Spectral Subtraction
+----------------------------------------
+This script implements noise reduction using spectral subtraction technique.
+It estimates the noise profile from a reference clean signal and removes
+similar noise patterns from the noisy audio.
+
+Features:
+    - Noise profile estimation
+    - Spectral subtraction
+    - Audio length alignment
+    - Spectrogram visualization
+"""
+
 import numpy as np
 from scipy.io import wavfile
 import librosa
