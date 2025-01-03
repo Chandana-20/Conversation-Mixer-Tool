@@ -6,9 +6,9 @@
 
 ## Features
 
+- **Bandpass Filtering**: Removes unnecessary frequencies from each input audio file for cleaner audio.
 - **Speech Detection**: Identifies speech segments from audio files using the Silero VAD model.
 - **Audio Interleaving**: Merges caller and receiver audio segments into a realistic conversation.
-- **Bandpass Filtering**: Removes unnecessary frequencies for cleaner audio.
 - **Noise Reduction**: Reduces background noise for enhanced clarity.
 - **Smooth Transitions**: Adds fade effects for seamless transitions between segments.
 

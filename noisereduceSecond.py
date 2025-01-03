@@ -1,3 +1,4 @@
+"""
 Noise Reduction using Spectral Subtraction
 ----------------------------------------
 This script implements noise reduction using spectral subtraction technique.
