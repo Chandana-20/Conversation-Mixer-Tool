@@ -1,3 +1,17 @@
+"""
+Bandpass Filter for Audio Processing
+-----------------------------------
+This script applies a bandpass filter to audio files to isolate frequencies 
+within a specific range (50Hz - 4000Hz). This helps in reducing unwanted 
+frequencies while preserving the speech content.
+
+Dependencies:
+    - numpy: For numerical operations
+    - soundfile: For audio file I/O
+    - scipy.signal: For filter design and application
+    - librosa: For audio processing
+"""
+
 import numpy as np
 import soundfile as sf
 from scipy.signal import butter, lfilter
