@@ -1,3 +1,16 @@
+"""
+Audio Conversation Mixer
+-----------------------
+This script processes two audio files containing speech and creates a mixed
+version by detecting and interleaving speech segments. It uses the Silero VAD
+(Voice Activity Detection) model to identify speech segments.
+
+Features:
+    - Speech detection using Silero VAD
+    - Segment interleaving based on timestamps
+    - Smooth transitions between segments
+"""
+
 from pydub import AudioSegment
 from silero_vad import get_speech_timestamps, read_audio
 import torch
